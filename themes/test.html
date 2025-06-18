@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>無何有之鄉</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Place favicon.ico in the root directory -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+  </head>
+  <body class="bg-[#F8FBFF] text-gray-800 font-sans">
+    <!-- 背景图片与遮罩 -->
+    <div class="fixed inset-0 -z-10">
+      <img
+        src="./mailky_way.png"
+        alt="背景"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-white/30"></div>
+    </div>
+
+    <!-- 顶部导航栏 -->
+    <header
+      class="bg-[#0F3D91]/95 text-white flex items-center px-8 h-16 shadow-md sticky top-0 z-20"
+    >
+      <span class="text-2xl font-semibold tracking-wide mr-8"
+        >zzy040330.萌え</span
+      >
+      <nav class="noto-serif-sc-bold flex gap-6 flex-1">
+        <a href="#" class="hover:text-[#F4CDE8] transition">首页</a>
+        <a href="#" class="hover:text-[#F4CDE8] transition">文章</a>
+        <a href="#" class="hover:text-[#F4CDE8] transition">归档</a>
+        <a href="#" class="hover:text-[#F4CDE8] transition">友情链接</a>
+        <a href="#" class="hover:text-[#F4CDE8] transition">关于</a>
+      </nav>
+
+      <!-- TODO: 搜索  -->
+      <!--
+           <button class="ml-auto">
+           <svg
+           class="w-6 h-6 opacity-80 hover:opacity-100"
+           fill="none"
+           stroke="currentColor"
+           stroke-width="2"
+           viewBox="0 0 24 24"
+           >
+           <circle cx="11" cy="11" r="8" />
+           <line x1="21" y1="21" x2="16.65" y2="16.65" />
+           </svg>
+           </button> -->
+    </header>
+
+    <!-- Hero 标题区 -->
+    <section class="flex flex-col items-center py-16 md:py-24 text-center">
+      <h1
+        class="noto-serif-sc-bold text-6xl font-bold text-white drop-shadow-lg mb-3"
+      >
+        無何有之鄉
+      </h1>
+      <p class="noto-serif-sc-bold text-3xl text-white/90">
+        ～本来无一物，何处惹尘埃～
+      </p>
+    </section>
+
+    <!-- 主体区：侧边栏 + 卡片内容 -->
+    <main class="container mx-auto px-4 flex gap-8">
+      <!-- 左侧侧边栏 -->
+      <aside class="hidden md:block w-72 shrink-0">
+        <div class="rounded-2xl shadow-lg bg-white/80 bg-blur mb-8 p-6">
+          <div class="flex flex-col items-center">
+            <img
+              src="./sophi_1024.webp"
+              alt="Jun Amane"
+              class="w-24 h-24 rounded-full mb-3 shadow"
+            />
+            <div class="text-xl font-bold mb-1">Jun Amane</div>
+            <div class="text-sm text-gray-500 mb-3">~Heart Under Blade~</div>
+          </div>
+          <div class="flex flex-col gap-2 text-sm mt-4">
+            <div>📄 17 文章 🔖 6 分类 🏷️ 16 标签</div>
+            <a href="#" class="flex items-center gap-2 hover:text-blue-700"
+              ><svg class="w-4 h-4" ...=""></svg> GitHub</a
+            >
+            <a href="#" class="flex items-center gap-2 hover:text-blue-700"
+              ><svg class="w-4 h-4" ...=""></svg> Email</a
+            >
+          </div>
+        </div>
+        <!-- 侧栏导航区 -->
+        <nav
+          class="rounded-2xl shadow-md bg-white/80 bg-blur p-4 flex flex-col gap-3"
+        >
+          <a href="#" class="flex items-center gap-2 hover:text-blue-700"
+            ><svg class="w-5 h-5" ...=""></svg> 首页</a
+          >
+          <a href="#" class="flex items-center gap-2 hover:text-blue-700"
+            ><svg class="w-5 h-5" ...=""></svg> 文章</a
+          >
+          <a href="#" class="flex items-center gap-2 hover:text-blue-700"
+            ><svg class="w-5 h-5" ...=""></svg> 归档</a
+          >
+          <a href="#" class="flex items-center gap-2 hover:text-blue-700"
+            ><svg class="w-5 h-5" ...=""></svg> 友情链接</a
+          >
+          <a href="#" class="flex items-center gap-2 hover:text-blue-700"
+            ><svg class="w-5 h-5" ...=""></svg> 关于</a
+          >
+        </nav>
+      </aside>
+
+      <!-- 文章卡片区 -->
+      <section
+        class="flex-1 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"
+      >
+        <!-- 示例卡片 -->
+        <div
+          class="rounded-2xl shadow-lg bg-white/70 bg-blur p-6 flex flex-col gap-2 hover:-translate-y-1 hover:shadow-2xl transition"
+        >
+          <div class="text-base text-gray-500 flex gap-3 items-center">
+            <span>2024-11-07</span>
+            <span>·</span>
+            <span>category</span>
+          </div>
+          <div class="font-bold text-lg text-[#0F3D91] mt-1">
+            Ciallo, World!
+          </div>
+          <div class="text-sm text-gray-700 line-clamp-3 mt-1">
+            Hello, World!
+          </div>
+        </div>
+        <!-- 再复制N个卡片即可，动态数据后面可用JS填充 -->
+        <!-- ... -->
+      </section>
+    </main>
+
+    <!-- 分页区 -->
+    <div class="flex justify-center my-12 gap-2">
+      <button
+        class="w-9 h-9 rounded-full bg-[#0F3D91]/90 text-white shadow hover:scale-105 transition"
+      >
+        1
+      </button>
+      <button
+        class="w-9 h-9 rounded-full border border-[#0F3D91]/40 text-[#0F3D91] hover:bg-[#0F3D91]/10 transition"
+      >
+        2
+      </button>
+      <button
+        class="w-9 h-9 rounded-full border border-[#0F3D91]/40 text-[#0F3D91] hover:bg-[#0F3D91]/10 transition"
+      >
+        3
+      </button>
+      <!-- ... -->
+    </div>
+
+    <!-- 页脚 -->
+    <footer
+      class="bg-[#0F3D91] text-white/80 text-center py-6 text-sm mt-12 noto-serif-sc-regular"
+    >
+      © 2013-2025 無何有之鄉 | 本站採用 CC BY-SA 4.0 許可證
+    </footer>
+  </body>
+</html>
