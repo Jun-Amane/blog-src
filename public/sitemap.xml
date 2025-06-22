@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.zzy040330.moe/categories/cryptography/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/tags/cryptography/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/categories/digital-life/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/tags/gpg/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/tags/minutes/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/categories/privacy/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/categories/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/posts/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/tags/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
+    <loc>https://www.zzy040330.moe/posts/ssh_gpg/</loc>
+    <lastmod>2025-06-18T16:59:14+08:00</lastmod>
+  </url><url>
     <loc>https://www.zzy040330.moe/tags/kernel/</loc>
     <lastmod>2022-12-17T16:13:01+08:00</lastmod>
   </url><url>
@@ -11,25 +44,10 @@
     <loc>https://www.zzy040330.moe/categories/minutes/</loc>
     <lastmod>2022-12-17T16:13:01+08:00</lastmod>
   </url><url>
-    <loc>https://www.zzy040330.moe/tags/minutes/</loc>
-    <lastmod>2022-12-17T16:13:01+08:00</lastmod>
-  </url><url>
     <loc>https://www.zzy040330.moe/posts/patchwork/</loc>
     <lastmod>2022-12-17T16:13:01+08:00</lastmod>
   </url><url>
     <loc>https://www.zzy040330.moe/categories/submission/</loc>
-    <lastmod>2022-12-17T16:13:01+08:00</lastmod>
-  </url><url>
-    <loc>https://www.zzy040330.moe/categories/</loc>
-    <lastmod>2022-12-17T16:13:01+08:00</lastmod>
-  </url><url>
-    <loc>https://www.zzy040330.moe/posts/</loc>
-    <lastmod>2022-12-17T16:13:01+08:00</lastmod>
-  </url><url>
-    <loc>https://www.zzy040330.moe/tags/</loc>
-    <lastmod>2022-12-17T16:13:01+08:00</lastmod>
-  </url><url>
-    <loc>https://www.zzy040330.moe/</loc>
     <lastmod>2022-12-17T16:13:01+08:00</lastmod>
   </url><url>
     <loc>https://www.zzy040330.moe/categories/devops/</loc>

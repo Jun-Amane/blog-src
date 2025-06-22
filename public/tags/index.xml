@@ -6,8 +6,29 @@
     <description>Recent content in 标签 on 無何有之鄉</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Dec 2022 16:13:01 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 16:59:14 +0800</lastBuildDate>
     <atom:link href="https://www.zzy040330.moe/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptography</title>
+      <link>https://www.zzy040330.moe/tags/cryptography/</link>
+      <pubDate>Wed, 18 Jun 2025 16:59:14 +0800</pubDate>
+      <guid>https://www.zzy040330.moe/tags/cryptography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPG</title>
+      <link>https://www.zzy040330.moe/tags/gpg/</link>
+      <pubDate>Wed, 18 Jun 2025 16:59:14 +0800</pubDate>
+      <guid>https://www.zzy040330.moe/tags/gpg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minutes</title>
+      <link>https://www.zzy040330.moe/tags/minutes/</link>
+      <pubDate>Wed, 18 Jun 2025 16:59:14 +0800</pubDate>
+      <guid>https://www.zzy040330.moe/tags/minutes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Kernel</title>
       <link>https://www.zzy040330.moe/tags/kernel/</link>
@@ -20,13 +41,6 @@
       <link>https://www.zzy040330.moe/tags/linux/</link>
       <pubDate>Sat, 17 Dec 2022 16:13:01 +0800</pubDate>
       <guid>https://www.zzy040330.moe/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Minutes</title>
-      <link>https://www.zzy040330.moe/tags/minutes/</link>
-      <pubDate>Sat, 17 Dec 2022 16:13:01 +0800</pubDate>
-      <guid>https://www.zzy040330.moe/tags/minutes/</guid>
       <description></description>
     </item>
     <item>
